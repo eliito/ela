@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}html{
+    background-color: black;
+    color: white;
+}
+body {
+    width: 100%; height: 100%;
+    font-style: normal;
+ }
+.socialo{
+    display: column; 
+    justify-content: flex-start; 
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 900px; 
+    margin: auto;
+    height: 470px; 
+    margin-top: 70px;
+    width: 310px;
+    border-radius: 15px;
+}
+.socialo img{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+}
+.name h1{
+    color: rgb(248, 239, 239);
+    margin-top: 15px;
+    font-size: 26px;
+}
+.name p{
+    color: greenyellow;
+    font-size: 16px;
+    margin-top: 9px;
+}
+.desc p{
+    font-size: 11px;
+    margin-top: 17px;
+}
+#buttons {
+    display: inline-block;
+    text-align: center; padding: 9px;
+    width: 200px; margin: 5px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: white; font-size: 12px;
+    font-weight: 900;
+    height: 30px;
+    justify-content: space-between;
+    box-shadow: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#buttons:hover{
+    background-color: rgb(170, 230, 31);
+    cursor: default;
+    color: black;
+}
+.con{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
