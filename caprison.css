@@ -43,7 +43,7 @@ body {
     font-size: 11px;
     margin-top: 17px;
 }
-#buttons {
+a{
     display: inline-block;
     text-align: center; padding: 9px;
     width: 200px; margin: 5px;
@@ -57,7 +57,7 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-#buttons:hover{
+a{
     background-color: rgb(170, 230, 31);
     cursor: default;
     color: black;
